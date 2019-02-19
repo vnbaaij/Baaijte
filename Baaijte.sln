@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baaijte.Server", "Baaijte\Baaijte.Server\Baaijte.Server.csproj", "{2A1CF07A-4D20-4091-B908-E64F082AE41A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baaijte.App", "Baaijte\Baaijte.App\Baaijte.App.csproj", "{D7CD091C-84D8-4767-B190-89B25030093C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A1CF07A-4D20-4091-B908-E64F082AE41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1CF07A-4D20-4091-B908-E64F082AE41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1CF07A-4D20-4091-B908-E64F082AE41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1CF07A-4D20-4091-B908-E64F082AE41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7CD091C-84D8-4767-B190-89B25030093C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CD091C-84D8-4767-B190-89B25030093C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CD091C-84D8-4767-B190-89B25030093C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CD091C-84D8-4767-B190-89B25030093C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B5B8720-9CC4-497C-B7A7-3B548C6B657A}
+	EndGlobalSection
+EndGlobal
