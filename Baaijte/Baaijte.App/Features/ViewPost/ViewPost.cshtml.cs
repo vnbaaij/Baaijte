@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Markdig;
 //using Microsoft.AspNetCore.Blazor;
 using Microsoft.AspNetCore.Components;
-using Baaijte.App.Shared;
+using Baaijte.Shared;
 
 namespace Baaijte.App.Features.ViewPost
 {

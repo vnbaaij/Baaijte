@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Blazored.LocalStorage;
 using Microsoft.JSInterop;
-using Baaijte.App.Shared;
+using Baaijte.Shared;
 using System;
 
 namespace Baaijte.App

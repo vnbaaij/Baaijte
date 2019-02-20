@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Baaijte.App.Shared;
+using Baaijte.Shared;
 
 namespace Baaijte.App.Services
 {

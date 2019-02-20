@@ -1,6 +1,6 @@
 using System;
 
-namespace Baaijte.App.Shared
+namespace Baaijte.Shared
 {
     public class BlogPost
     {

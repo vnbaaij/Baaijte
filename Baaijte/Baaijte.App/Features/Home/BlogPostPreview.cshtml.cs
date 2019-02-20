@@ -1,4 +1,4 @@
-using Baaijte.App.Shared;
+using Baaijte.Shared;
 using Microsoft.AspNetCore.Components;
 
 namespace Baaijte.App.Features.Home

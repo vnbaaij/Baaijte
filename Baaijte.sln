@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baaijte.Server", "Baaijte\B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baaijte.App", "Baaijte\Baaijte.App\Baaijte.App.csproj", "{D7CD091C-84D8-4767-B190-89B25030093C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baaijte.Shared", "Baaijte\Baaijte.Shared\Baaijte.Shared.csproj", "{3BF721BF-D4FF-48EC-B03F-418DD7D7BBD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D7CD091C-84D8-4767-B190-89B25030093C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7CD091C-84D8-4767-B190-89B25030093C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7CD091C-84D8-4767-B190-89B25030093C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF721BF-D4FF-48EC-B03F-418DD7D7BBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF721BF-D4FF-48EC-B03F-418DD7D7BBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF721BF-D4FF-48EC-B03F-418DD7D7BBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF721BF-D4FF-48EC-B03F-418DD7D7BBD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

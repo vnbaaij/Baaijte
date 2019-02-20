@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Services;
 using Microsoft.JSInterop;
-using Baaijte.App.Shared;
+using Baaijte.Shared;
 
 
 namespace Baaijte.App.Features.PostEditor

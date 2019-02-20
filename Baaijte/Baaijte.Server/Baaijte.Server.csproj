@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Baaijte.App\Baaijte.App.csproj" />
+    <ProjectReference Include="..\Baaijte.Shared\Baaijte.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

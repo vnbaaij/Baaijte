@@ -1,4 +1,4 @@
-namespace Baaijte.App.Shared
+namespace Baaijte.Shared
 {
     public class LoginDetails
     {

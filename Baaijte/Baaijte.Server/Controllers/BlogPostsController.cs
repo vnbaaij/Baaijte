@@ -1,10 +1,8 @@
-using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.AspNetCore.Authorization;
 using Baaijte.App.Services;
-using Baaijte.App.Shared;
+using Baaijte.Shared;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Baaijte.Server.Controllers
 {

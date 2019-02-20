@@ -14,4 +14,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.Browser" Version="3.0.0-preview-19075-0444" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Build" Version="3.0.0-preview-19075-0444" PrivateAssets="all" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Baaijte.Shared\Baaijte.Shared.csproj" />
+  </ItemGroup>
 </Project>
