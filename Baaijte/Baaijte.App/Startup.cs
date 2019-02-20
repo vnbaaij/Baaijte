@@ -2,6 +2,9 @@ using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Baaijte.App.Services;
+using System.Net.Http;
+using Microsoft.AspNetCore.Components.Services;
+using System;
 
 namespace Baaijte.App
 {
@@ -9,16 +12,23 @@ namespace Baaijte.App
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            // Example of a data service
+            services.AddSingleton<HttpClient>(s =>
+            {
+                return new HttpClient
+                {
+                    BaseAddress = new Uri("http://localhost:53111/")
+                };
+            });
             services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<BlogPostService>();
             services.AddBlazoredLocalStorage();
-            //services.AddScoped<AppState>();
-      
+
         }
 
         public void Configure(IComponentsApplicationBuilder app)
         {
+
+
             app.AddComponent<App>("app");
         }
     }
